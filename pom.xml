@@ -71,7 +71,7 @@
                 <configuration>
                     <imageName>${docker.image.prefix}/${project.artifactId}:${project.version}</imageName>
                     <dockerDirectory>.</dockerDirectory>
-                    <serverId>docker-hub</serverId>
+                    <serverId>dockerHub</serverId>
                     <resources>
                         <resource>
                             <targetPath>/</targetPath>
